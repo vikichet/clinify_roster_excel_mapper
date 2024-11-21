@@ -198,7 +198,7 @@ function initialise(headers = [], jsonData = []) {
 
   const submitButton = document.createElement("button");
   submitButton.type = "submit";
-  submitButton.textContent = "Parse and Download";
+  submitButton.textContent = "Parse and generate";
   submitButton.className = "gird-item";
 
   MAPPING_FILEDS.forEach((iKey) => {
