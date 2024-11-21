@@ -1,0 +1,30 @@
+html,
+body {
+  padding: 0;
+  height: 100svh;
+  background-color: cadetblue;
+}
+
+* {
+  font-size: large;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 10px;
+}
+
+.grid-item {
+  width: 100%;
+}
